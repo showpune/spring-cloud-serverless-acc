@@ -1,4 +1,4 @@
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='showpune/spring-cloud-serverless/spring-cloud-serverless-source')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='showpune/spring-cloud-serverless-source-acc')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='default')
 allow_k8s_contexts('zhiyongli-tanzu-aks-admin')
